@@ -51,3 +51,21 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r pressure2, echo=FALSE, fig.height=5, fig.width=5}
+plot(pressure)
+```
+
+
+## Insert tables!!!
+
+```{r, echo = F}
+knitr::kable(head(cars),
+             caption = "top 6 rows of cars dataset")
+```
+
+
+## Insert an equation
+
+$$ Y = \beta_0 + \beta_1x $$
+
